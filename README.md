@@ -1,6 +1,6 @@
 # cuda_api_hook  
 
-English | [中文](#中文)。  
+中文  
 
 ---  
 
@@ -25,6 +25,8 @@ with cuda_api_hook_ctx("cudaLaunchKernel"):
     # your python code  
 ```  
 最后启动项目，就会打印执行的 kernel 相关的信息。  
+
+English  
 
 ---  
 
