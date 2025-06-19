@@ -24,8 +24,6 @@ with cuda_api_hook_ctx("cudaLaunchKernel"):
 
 ## English  
 
----  
-
 Functionality similar to Python function decorators, but operating on CUDA APIs, with one application being kernel recording.  
 
 ### Usage, example: Recording Kernels  
