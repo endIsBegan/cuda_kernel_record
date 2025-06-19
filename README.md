@@ -1,14 +1,10 @@
 # cuda_api_hook  
 
-中文  
-
----  
+## 中文  
 
 作用类似于 python 函数装饰器，只不过作用于 cuda api，其中一个应用是 record kernel。
 
-# 使用方法
-
-## 以 record kernel 为例
+### 使用方法, 以 record kernel 为例
 
 编译 hook so ：  
 ```python  
@@ -26,15 +22,13 @@ with cuda_api_hook_ctx("cudaLaunchKernel"):
 ```  
 最后启动项目，就会打印执行的 kernel 相关的信息。  
 
-English  
+## English  
 
 ---  
 
 Functionality similar to Python function decorators, but operating on CUDA APIs, with one application being kernel recording.  
 
-# Usage  
-
-## Example: Recording Kernels  
+### Usage, example: Recording Kernels  
 
 Compile hook shared object:  
 ```python  
